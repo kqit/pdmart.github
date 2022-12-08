@@ -1,0 +1,12 @@
+import axios from "axios";
+import getAcessToken from "./getAcessToken"
+let accessToken=""
+getAcessToken
+.then(res=>res.data)
+.then(data=>accessToken=data.acess_token)
+export default axios.create({
+    baseURL:"https://public.kiotapi.com",
+    headers:{
+        'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2NjExODMzMjYsImV4cCI6MTY2MTI2OTcyNiwiaXNzIjoiaHR0cDovL2lkLmtpb3R2aWV0LnZuIiwiY2xpZW50X2lkIjoiZGI0OWNmZTctZDY4Ny00Nzg0LTliODgtYzE2MjJlMzg5NDU1IiwiY2xpZW50X1JldGFpbGVyQ29kZSI6InBodW9uZ2R1bmdtYXJ0IiwiY2xpZW50X1JldGFpbGVySWQiOiIxNDMwODIzIiwiY2xpZW50X1VzZXJJZCI6IjEzNTA2OTIiLCJjbGllbnRfU2Vuc2l0aXZlQXBpIjoiRmFsc2UiLCJpYXQiOjE2NjExODMzMjYsInNjb3BlIjpbIlB1YmxpY0FwaS5BY2Nlc3MiXX0.EYwx4I_Qsu1gEoA9Ve6ROc8CShlgkbMUZ8YJ-REF-wRLn_DV8ppVufGM9YFIEVJSxyiJEyFYhvxMSfjCbXuisnJsZbRv3gp3KuPZE4R0i6uN_gJyDqcjJzDkL_K9rNMlhS8nxem0CLQWC8VDkXeJ_XAoDj89ggz1OBgXikXBciQC4a5STvy0J1qSO-P3cAIKUw0z_QpduyLyD0SITRFVVA2A03Z5br3TApVDivDyqYdom2W5rJLjwo9rqzuMNA1h9I5shW4nozVZTDxwXHCzB7-AhEyDkXwDZx21-6asFzJ07d6Ehx4fBoikVl2J0MUVrPEtm_UIoxyJ30-Ku_pX1Q'
+    }
+})

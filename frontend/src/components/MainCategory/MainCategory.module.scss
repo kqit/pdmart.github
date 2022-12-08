@@ -1,0 +1,44 @@
+.wrapper{
+    margin-top: 18px;
+    background-color: white;
+}
+.filter{
+    display: flex;
+}
+.list-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.see-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(253, 108, 29);
+    color: rgb(253, 108, 29);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.item{
+    border: 0.25px rgb(230, 230, 230) solid;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.item>a{
+    height: 400px;
+}
+path{
+    font-size: 15px;
+    margin-bottom: -10px;
+    margin-left: 5px;
+}

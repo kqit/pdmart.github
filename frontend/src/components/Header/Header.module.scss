@@ -1,0 +1,143 @@
+.wrapper{
+    color: white;
+    width: 1200px;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logo{
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.logo>img{
+    width: 196px;
+}
+.wrapper>a{
+    text-decoration: none;
+    color: white;
+}
+.container-search{
+    background-color: white;
+    display: flex;
+    height: 50%;
+    width: 90%;
+    padding: 5px;
+    border-radius: 3px;
+}
+.search{
+    grid-column: 3/8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-search{
+    height: 100%;
+    width: 10%;
+    font-size: 18px;
+    border-left: 1px gray solid;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-search{
+    border: 0;
+    outline: none;
+    height: 100%;
+    width: 90%;
+    padding-left: 3px;
+}
+
+.cart,.customer-consulting,.login,.hotline,.rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.consulting-menu::after,.menu-hotline::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+    top:-4px;
+    right: 28px;
+}
+.cart-container,.customer-consulting-container,.login-container,.rate-container{
+    display: flex;
+    cursor: pointer;
+}
+.logo-cart,.logo-customer,.logo-login,.logo-rate{
+    display: flex;
+    position: relative;
+    font-size: 22px;
+    margin-right: 5px;
+    padding-top: 3px;
+}
+.logo-cart{
+    padding-left: 15px;
+}
+.logo-customer{
+    padding-left: 11px;
+}
+.logo-login{
+    font-size: 19px;
+    margin-left: -6px;
+}
+.logo-rate{
+    margin-left: -8px;
+}
+.title{
+    font-size: 15px;
+    padding-top: 6px;
+    font-weight: 500;
+}
+.customer-consulting,.hotline{
+    position: relative;
+}
+.consulting-menu,.menu-hotline{
+    position: absolute;
+    padding: 7px;
+    top:65px;
+    right: 0;
+    z-index: 2;
+    background-color: white;
+    color: rgb(128, 128, 128);
+    border-radius: 2px;
+    width: 250px;
+}
+.consulting-menu>div,.menu-hotline>div{
+    font-size: 14px;
+    padding: 5px 5px;
+    display: flex;
+}
+.consulting-menu>div:hover,.menu-hotline>div:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.logo-menu{
+    margin-right: 5px;
+}
+.number{
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

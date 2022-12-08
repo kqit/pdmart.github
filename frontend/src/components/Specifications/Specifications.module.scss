@@ -1,0 +1,26 @@
+.wrapper{
+    
+}
+.item-spec{
+    display: flex;
+    padding: 8px;
+    background-color: white;
+}
+.left-spec{
+    width: 30%;
+}
+.product-describe{
+    margin-top: 10px;
+    background-color: white;
+    height: auto;
+    min-height: 100px;
+}
+.content{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}

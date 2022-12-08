@@ -1,0 +1,60 @@
+.wrapper{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.item:hover{
+    background-color:rgba(253, 108, 29,0.1);
+}
+.list-item{
+    width: 100%;
+}
+.item{
+    display: flex;
+    width: 100%;
+    padding: 20px 5px;
+    border-bottom: 0.35px rgb(221, 221, 221) solid;
+}
+.left-item{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-item>img{
+    width: 80%;
+}
+.right-item{
+    width: 70%;
+}
+.name-product{
+    width: 100%;
+    font-size: 14.5px;
+    color: rgb(61, 61, 61);
+}
+.price-product{
+    display: flex;
+    margin-top: 8px;
+}
+.sell-price{
+    color: red;
+    font-weight: 600;
+    font-size: 17px;
+}
+.cost{
+    margin-left: 5px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.sale{
+    color: rgb(25, 25, 25);
+    margin-left: 3px;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.rate-product{
+    margin-top: 5px;
+    color: rgba(253, 108, 29);
+}

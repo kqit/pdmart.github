@@ -1,0 +1,61 @@
+.wrapper{
+    
+    margin-top: 13px;
+    
+}
+.footer-infor{
+    line-height: 20px;
+    width: 1200px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 13px;
+    border-bottom: 0.35px rgb(226, 226, 226) solid;
+}
+.container{
+    display: flex;
+    cursor: pointer;
+}
+.logo{
+    padding-top: 2px;
+    margin-right: 5px;
+}
+.img-payment>img{
+    width: 54px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.concat{
+    font-size: 18px;
+    font-weight: 400;
+}
+.phone{
+    font-weight: bold;
+    color: rgb(47, 128, 237)
+}
+.container-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brand
+{
+    width: 100%;
+    padding:  20px 0;
+    border-bottom: 0.35px rgb(226, 226, 226) solid;
+}
+.brand>div{
+    width: 50%;
+}
+.address{
+    height: 50px;
+    font-size: 13px;
+    color: #747474;
+    padding: 15px 0 0 5px;
+    background-color: #f1f1f1
+}

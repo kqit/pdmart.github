@@ -1,0 +1,78 @@
+.wrapper{
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img-product{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s
+}
+.img{
+    width:200px;
+    overflow: hidden;
+}
+.information-product{
+    padding: 15px;
+    height: 45%;
+    position: relative;
+}
+.goodwill-product{
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    width:max-content;
+    padding: 3px;
+    border-radius:20px ;
+}
+.name-product{
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+.price-product{
+    margin-top: 8px;
+    display: flex;
+}
+.other-information{
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+}
+.price{
+    font-size: 16px;
+    color: rgb(224, 7, 36);
+    font-weight: 600;
+    width: max-content;
+    margin-right: 15px;
+}
+.sale{
+    color: rgb(255, 119, 0);
+    font-size: 14px;
+    padding: 2px;
+    font-weight: 600;
+    width: max-content;
+    border-radius: 5px;
+    background-color: rgba(255, 174, 0, 0.2);
+}
+.rate-product{
+    margin-top: 8px;
+    display: flex;
+}
+.rate-point{
+    font-size: 14px;
+    width: 20%;
+    padding-top: 1px;
+    color: orange;
+    display: flex;
+}
+.rate-quantity{
+    color: rgb(169, 169, 169);
+}

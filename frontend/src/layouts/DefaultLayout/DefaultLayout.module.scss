@@ -1,0 +1,24 @@
+.layout-banner{
+    width: 100%;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.layout-header{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(253,108,29);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.layout-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

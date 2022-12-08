@@ -1,0 +1,254 @@
+.wrapper{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper a{
+    text-decoration: none;
+}
+.container{
+    padding-top: 20px;
+    width: 1200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.img-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-img>img{
+    
+    width: 450px;
+    height: 410px;
+}
+.main-img>button{
+    position: absolute;
+    top:31%;
+    background-color: rgba(238, 238, 238,0);
+    font-size: 24px;
+}
+.next{
+    right: 0;
+}
+.previous{
+    left: 0;
+}
+.point-choose-img{
+    display: flex;
+    margin: 5px 0;
+}
+.point{
+    margin-left: 3px;
+    width: 8px;
+    height: 8px;
+    border: 0.3px gray solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.list-img{
+    display: flex;
+    left: 0;
+}
+.item-img{
+    padding: 5px;
+}
+.item-img>img{
+    width: 82px;
+    height: auto;
+    cursor: pointer;
+}
+.inf-container{
+    padding-left: 32px;
+}
+.name-product{
+    height: 40px;
+}
+h2{
+    font-size: 20px;
+}
+.rate-product{
+    height: 30px;
+    display: flex;
+}
+.rate-product>div{
+    width: 22%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.rate-point,.rate-quantity{
+    border-right: 0.25px rgb(206, 206, 206) solid;
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+}
+.amount-sell{
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+}
+.rate-point{
+    color: red;
+}
+.price-product{
+    width: 30px;
+    display: flex;
+    margin-top: 15px;
+}
+.sell-price{
+    letter-spacing: 0px;
+    color: rgb(253, 108, 29);
+    font-weight: bolder;
+    font-size: 24px;
+}
+.cost{
+    margin-left: 15px;
+    padding-bottom: 2.2px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content:end
+}
+.status{
+    height: 25px;
+    margin-top: 15px;
+}
+.amount-container{
+    display: flex;
+    margin-top: 5px;
+}
+.amount-product{
+    display: flex;
+    margin-top: 10px; 
+}
+.amount{
+    width: 35px;
+    outline: none;
+    border: 0;
+    border-top: 0.5px rgb(209, 209, 209) solid;
+    border-bottom: 0.5px rgb(209, 209, 209) solid;
+   padding-left: 13px;
+}
+.amount-product>div{
+    font-size: 25px;
+    height: 30px;
+    color:#2490e3;
+    cursor: pointer;
+    width: 30px;
+    display: flex;
+    border: 0.5px rgb(209, 209, 209) solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    padding-top: 15px;
+    margin-right: 39px;
+}
+.button-container{
+    display: flex;
+    margin-top: 25px;
+
+}
+.buy-now{
+    width: 25%;
+    height: 50px;
+    background-color: rgb(253, 108, 29);
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart{
+    margin-left: 2%;
+    border-radius: 3px;
+    width: 33%;
+    height: 50px; 
+    color: rgb(253, 108, 29) ;
+    border:1px rgb(253, 108, 29) solid;
+    background-color: rgba(253, 108, 29,0.1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.other-information{
+    margin-top: 15px;
+    width: 60%;
+    border-radius: 2px;
+    padding: 10px 5px;
+    letter-spacing: 0.15px;
+    font-size: 14.5px;
+    color: #011e41;
+    font-weight: 600;
+}
+.other-information>div{
+    margin-top: 8px;
+}
+
+.shipping>svg{
+    color: rgb(46, 168, 46);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.protect>svg{
+    color: #2490e3;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.hotline{
+    background-color: white;
+}
+.hotline{
+    margin-top: 8px;
+    width: 60%;
+    background-color: #e9261c;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.top-hotline{
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bot-hotline{
+    font-size: 13px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.specification{
+    margin-top: 20px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    column-gap: 20px; 
+}
+.thanks{
+    width: 99.5%;
+    border: 0.25px rgb(226, 226, 226) solid;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    border-radius: 3px;
+    line-height: 20px;
+}
